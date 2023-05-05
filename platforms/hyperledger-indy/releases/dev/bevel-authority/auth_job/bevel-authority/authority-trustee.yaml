@@ -27,7 +27,7 @@ spec:
       repository: alpine:3.9.4
       pullPolicy: IfNotPresent
     vault:
-      address: http://192.168.49.2:16648
+      address: http://192.168.49.2:19633
       identity: authority-trustee
       admin_auth_path: kubernetes-bevel-authority-admin-auth
       policy: bevel-authority-authority-trustee-ro
