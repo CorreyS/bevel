@@ -27,7 +27,11 @@ spec:
       repository: alpine:3.9.4
       pullPolicy: IfNotPresent
     vault:
+<<<<<<< HEAD
       address: http://192.168.49.2:18441
+=======
+      address: http://192.168.49.2:19700
+>>>>>>> b9cbc76fc61913b2f63f516dba664c05c3e042fa
       identity: provider-endorser
       admin_auth_path: kubernetes-bevel-provider-admin-auth
       policy: bevel-provider-provider-endorser-ro

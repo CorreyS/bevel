@@ -27,7 +27,11 @@ spec:
       pullSecret: regcred
       pullPolicy: IfNotPresent
     vault:
+<<<<<<< HEAD
       address: http://192.168.49.2:18441
+=======
+      address: http://192.168.49.2:19700
+>>>>>>> b9cbc76fc61913b2f63f516dba664c05c3e042fa
       version: "2"
       keyPath: bevel-authority.trustees
       identity: authority-trustee
